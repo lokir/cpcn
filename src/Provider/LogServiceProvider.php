@@ -1,9 +1,7 @@
 <?php
 declare(strict_types=1);
 
-
 namespace Lmh\Cpcn\Provider;
-
 
 use Lmh\Cpcn\Support\Logger;
 use Lmh\Cpcn\Support\ServiceContainer;
