@@ -1,0 +1,38 @@
+{
+    "name": "lmh/cpcn",
+    "description": "中金支付PHP SDK",
+    "keywords" : ["中金","中金支付"],
+    "authors": [
+        {
+            "name": "lmh",
+            "email": "lmh@weiyian.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "psr/log": "^1.0",
+        "monolog/monolog": "2.0",
+        "pimple/pimple": "^3.0",
+        "guzzlehttp/guzzle": "^6.5",
+        "illuminate/support": "^5.8",
+        "ext-openssl": "*",
+        "ext-mbstring": "*",
+        "ext-libxml": "*",
+        "ext-fileinfo": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lmh\\Cpcn\\": "src"
+        },
+        "files": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lmh\\Cpcn\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
